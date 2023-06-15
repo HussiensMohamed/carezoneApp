@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tumor Detection Result</title>
+</head>
+<body>
+    <h1>Tumor Detection Result</h1>
+    <p>Predicted tumor type: {{predicted_class}}</p>
+    <img src="data:image/jpeg;base64,{{image_data|b64encode}}" />
+</body>
+</html>
